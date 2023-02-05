@@ -28,10 +28,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 @media only screen and (max-width: 1920px) {
     body {
     
-        transform: scale(0.67);
+        transform: scale(0.72);
         transform-origin: 0 0;
        
         line-height: 1;
@@ -39,8 +41,8 @@ footer, header, hgroup, menu, nav, section {
   }
 @media only screen and (max-width: 700px) {
     body {
-    
-        transform: scale(0.6);
+        
+        transform: scale(0.65);
         transform-origin: 0 0;
        
         line-height: 1;
@@ -79,7 +81,7 @@ table {
 position:absolute;
 pointer-events: none;
    width:855px;
-   height:1521px;
+   height:1340px;
    z-index: 20;
    background-image: url("../img/overlay.png");
 }
