@@ -55,6 +55,12 @@ function nextdress()
     else
      if(state.i===2){
     dress.setAttribute("class","dress3");
+         state.i++;
+         console.log(state.i);
+    }
+    else
+     if(state.i===3){
+    dress.setAttribute("class","dress4");
          state.i=0;
     }
     

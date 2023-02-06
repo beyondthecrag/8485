@@ -344,7 +344,14 @@ pointer-events: none;
     background-image: url(../img/dress3.png);
     z-index: 5;
 }
-
+.dress4{
+    
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/dress4.png);
+    z-index: 5;
+}
 
 #hairfront{
      position:absolute;
