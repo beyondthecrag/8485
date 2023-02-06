@@ -70,7 +70,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 
 
@@ -384,84 +387,62 @@ pointer-events: none;
 
 #nexthair{
     position:absolute;
-
+    top:150px;
     z-index: 100;
     pointer-events: auto; 
-    left: 200px;
-
 }
-
 
 #nextdress{
     position:absolute;
-    
-
+    top:200px;
     pointer-events: auto; 
     z-index: 100;
-    left: 150px;
-
 }
 
 #nextshoe{
     position:absolute;
-
-
+    top:250px;
     pointer-events: auto; 
     z-index: 100;
-    left: 90px;
-
 }
 #nextbackground{
     position:absolute;
-
+    top:300px;;
     z-index: 100;
     pointer-events: auto; 
-
 }
 #nextshirt{
     position:absolute;
-
+    top:350px;;
     z-index: 100;
     pointer-events: auto; 
-    left: 50px;
-
 }
 #nextpants{
     position:absolute;
- 
-
+    top:400px;;
     z-index: 100;
     pointer-events: auto; 
-    left: 0px;
-
 }
 #nextaccessory{
     position:absolute;
-  
+    top:450px;;
+    z-index: 100;
+    pointer-events: auto; 
 }
 #nextushirt{
     position:absolute;
+    top:500px;;
     z-index: 100;
     pointer-events: auto; 
-    left: 150px;
-
 }
 #nextjacket{
     position:absolute;
-    
-    
+    top:550px;;
     z-index: 100;
     pointer-events: auto; 
-    left: 100px;
     
 }
 .btn84{
-    top:95%;
-
-
-}
-.btn842{
-    top:97%;
-
-
+    right:0px;
+    font-size: 16px;
 }
