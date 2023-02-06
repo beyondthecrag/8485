@@ -442,8 +442,9 @@ pointer-events: none;
 .btn84{
     right:0px;
     font-size: 50px;
-    border-color:black;
+    color:black;
     background-color: rgb(175, 175, 175);
     border: 2px solid black;;
     padding-top:10px;
+    touch-action: manipulation;
 }
