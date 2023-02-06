@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+ 
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -387,14 +384,14 @@ pointer-events: none;
 
 #nexthair{
     position:absolute;
-    top:150px;
+    top:50px;
     z-index: 100;
     pointer-events: auto; 
 }
 
 #nextdress{
     position:absolute;
-    top:200px;
+    top:150px;
     pointer-events: auto; 
     z-index: 100;
 }
@@ -407,44 +404,46 @@ pointer-events: none;
 }
 #nextbackground{
     position:absolute;
-    top:300px;;
+    top:350px;;
     z-index: 100;
     pointer-events: auto; 
 }
 #nextshirt{
     position:absolute;
-    top:350px;;
+    top:450px;;
     z-index: 100;
     pointer-events: auto; 
 }
 #nextpants{
     position:absolute;
-    top:400px;;
+    top:550px;;
     z-index: 100;
     pointer-events: auto; 
 }
 #nextaccessory{
     position:absolute;
-    top:450px;;
+    top:650px;;
     z-index: 100;
     pointer-events: auto; 
 }
 #nextushirt{
     position:absolute;
-    top:500px;;
+    top:750px;;
     z-index: 100;
     pointer-events: auto; 
 }
 #nextjacket{
     position:absolute;
-    top:550px;;
+    top:850px;;
     z-index: 100;
     pointer-events: auto; 
     
 }
 .btn84{
     right:0px;
-    font-size: 27px;
+    font-size: 50px;
     border-color:black;
-    border-width: 5px;
+    background-color: rgb(175, 175, 175);
+    border: 5px;
+    padding-top:10px;
 }
