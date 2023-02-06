@@ -259,11 +259,3 @@ function nextjacket()
     
     
 }
-function hideAll() {
-    var x = document.getElementsByClassName("btn84");
-      if (x.display === "none") {
-    x.display = "block";
-    } else {
-    x.display = "none";
-      }
-    } 
