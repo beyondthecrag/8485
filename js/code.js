@@ -13,6 +13,8 @@ function init()
     state.o=1;
     state.p=1;
     state.q=1;
+    state.r=1;
+
     var background=document.getElementById("backgrounds");
     var shoe=document.getElementById("shoes");
     var hairf=document.getElementById("hairfront");
@@ -33,7 +35,8 @@ var state = {
     n:0,
     o:0,
     p:0,
-    q:0
+    q:0,
+    r:0
 };
 
 function nextdress()
@@ -66,6 +69,83 @@ function nextdress()
     
 }
 
+function nextphrase()
+{
+    console.log("inside function nextphrase");
+    console.log(state.r);
+    var phrase=document.getElementById("phrases");
+    if(state.r===0){
+    phrase.setAttribute("class","phrase1");
+        state.r++;
+        console.log(state.r);
+    }
+    else
+     if(state.r===1){
+        phrase.setAttribute("class","phrase2");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===2){
+        phrase.setAttribute("class","phrase3");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===2){
+        phrase.setAttribute("class","phrase3");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===3){
+        phrase.setAttribute("class","phrase4");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===4){
+        phrase.setAttribute("class","phrase5");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===5){
+        phrase.setAttribute("class","phrase6");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===6){
+        phrase.setAttribute("class","phrase7");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===7){
+        phrase.setAttribute("class","phrase8");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===8){
+        phrase.setAttribute("class","phrase9");
+         state.r++;
+         console.log(state.r);
+    }
+    else
+     if(state.r===9){
+        phrase.setAttribute("class","phrase10");
+         state.r++;
+         console.log(state.r);
+     }
+    else
+     if(state.r===10){
+        phrase.setAttribute("class","phrase11");
+         state.r=0;
+    }
+    
+}
 
 
 function nextshoe()

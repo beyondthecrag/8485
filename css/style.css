@@ -388,7 +388,111 @@ pointer-events: none;
     height:987px;
     background-image: url(../img/hairfront3.png);
 }
+#phrases{
+    position:absolute;
+   width:555px;
+   height:987px;
+   z-index: 15;
 
+}
+.phrase1{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/hairfront3.png);
+
+}
+.phrase1{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/hairfront3.png);
+
+}
+.phrase1{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/hairfront3.png);
+
+}
+.phrase1{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase1.png);
+
+}
+.phrase2{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase2.png);
+
+}
+.phrase3{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase3.png);
+
+}
+.phrase4{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase4.png);
+
+}
+.phrase5{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase5.png);
+
+}
+.phrase6{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase6.png);
+
+}
+.phrase7{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase7.png);
+
+}
+.phrase8{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase8.png);
+
+}
+.phrase9{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase9.png);
+
+}
+.phrase10{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase10.png);
+
+}
+.phrase11{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url(../img/phrase11.png);
+
+}
 #nexthair{
     position:absolute;
     top:50px;
@@ -442,6 +546,13 @@ pointer-events: none;
 #nextjacket{
     position:absolute;
     top:850px;;
+    z-index: 100;
+    pointer-events: auto; 
+    
+}
+#nextphrase{
+    position:absolute;
+    top:950px;;
     z-index: 100;
     pointer-events: auto; 
     
