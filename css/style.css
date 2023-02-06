@@ -444,5 +444,7 @@ pointer-events: none;
 }
 .btn84{
     right:0px;
-    font-size: 26px;
+    font-size: 27px;
+    border-color:black;
+    border-width: 5px;
 }
